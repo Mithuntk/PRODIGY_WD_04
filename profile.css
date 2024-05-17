@@ -1,0 +1,148 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #8697c4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #c2cad0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.about-text {
+  margin-right: 20px;
+}
+
+.photo {
+  flex-shrink: 0;
+  width: 500px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+  padding-top: 15%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 5%;
+}
+#experience {
+  background-color: #c5adc5;
+}
+#skills {
+  background-color: #adbbda;
+}
+#projects {
+  background-color: #afdde5;
+}
+#education {
+  background-color: #d3d9d4;
+}
+#contact {
+  background-color: #ede8f5;
+  padding-bottom: 15%;
+}
+#welcome-note {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 20%;
+  height: 3%;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: #d37272;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: none;
+}
+
+.experience {
+  width: 500px;
+  margin-left: 60%;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-list {
+  flex: 1;
+}
+
+.skills-list ul {
+  padding: 30px;
+}
+
+.skills-list ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+#education p {
+  font-weight: bold;
+}
